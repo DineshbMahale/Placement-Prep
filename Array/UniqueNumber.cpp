@@ -9,6 +9,7 @@ int unique(int a[],int n){
 	//we will be using xor operator here
 	for(int i=0;i<n;i++){
 		ans=ans^a[i];
+		
 	}
 	return ans;
 }
@@ -17,9 +18,9 @@ int main(){
 	int a[5]={1,2,2,1,4};
 	
 	cout<<"Unique number is : ";
-    cout<<unique(a,5);
+   	cout<<unique(a,5);
 
 
 	return 0;
 }
-//Not giving output I don't know why ??
+
